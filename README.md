@@ -7,6 +7,7 @@
     - [MBR](keywords/MBR.md)
     - [GPR](keywords/GPR.md)
     - [AC](keywords/AC.md)
+    - [Flag Register](keywords/FlagRegister.md)
 - [CUDA](keywords/CUDA.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Compute Shader](keywords/ComputeShader.md)
