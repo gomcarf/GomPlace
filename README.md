@@ -10,6 +10,7 @@
     - [Flag Register](keywords/FlagRegister.md)
     - [Stack Pointer](keywords/StackPointer.md)
     - [Control Unit](keywords/ControlUnit.md)
+    - [Arithmetic Logic Unit](keywords/ALU.md)
 - [CUDA](keywords/CUDA.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Compute Shader](keywords/ComputeShader.md)
