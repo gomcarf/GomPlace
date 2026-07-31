@@ -11,6 +11,7 @@
     - [Stack Pointer](keywords/StackPointer.md)
     - [Control Unit](keywords/ControlUnit.md)
     - [Arithmetic Logic Unit](keywords/ALU.md)
+        - [Adder](keywords/Adder.md)
 - [CUDA](keywords/CUDA.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Compute Shader](keywords/ComputeShader.md)
