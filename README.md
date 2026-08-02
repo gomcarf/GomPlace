@@ -13,6 +13,7 @@
     - [Arithmetic Logic Unit](keywords/ALU.md)
         - [Adder](keywords/Adder.md)
         - [Accumulator](keywords/Accumulator.md)
+        - [Complementer](keywords/Complementer.md)
 - [CUDA](keywords/CUDA.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Compute Shader](keywords/ComputeShader.md)
