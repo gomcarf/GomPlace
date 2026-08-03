@@ -12,6 +12,7 @@
     - [Control Unit](keywords/ControlUnit.md)
     - [Arithmetic Logic Unit](keywords/ALU.md)
         - [Adder](keywords/Adder.md)
+        - [Adder2](keywords/Adder2.md)
         - [Accumulator](keywords/Accumulator.md)
         - [Complementer](keywords/Complementer.md)
 - [CUDA](keywords/CUDA.md)
