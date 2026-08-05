@@ -16,6 +16,7 @@
         - [Accumulator](keywords/Accumulator.md)
         - [Complementer](keywords/Complementer.md)
     - [System Bus](keywords/Systembus.md)
+        - [Control Bus](keywords/ControlBus.md)
 - [CUDA](keywords/CUDA.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Compute Shader](keywords/ComputeShader.md)
