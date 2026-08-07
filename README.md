@@ -18,6 +18,7 @@
     - [System Bus](keywords/Systembus.md)
         - [Control Bus](keywords/ControlBus.md)
         - [Address Bus](keywords/AddressBus.md)
+        - [Data Bus](keywords/DataBus.md)
 - [CUDA](keywords/CUDA.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Compute Shader](keywords/ComputeShader.md)
