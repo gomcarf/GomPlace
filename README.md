@@ -20,6 +20,7 @@
         - [Address Bus](keywords/AddressBus.md)
         - [Data Bus](keywords/DataBus.md)
 - [Value Type](keywords/ValueType.md)
+- [Reference Type](keywords/RefType.md)
 - [CUDA](keywords/CUDA.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Compute Shader](keywords/ComputeShader.md)
