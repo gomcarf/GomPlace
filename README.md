@@ -22,6 +22,7 @@
         - [Address Bus](keywords/AddressBus.md)
         - [Data Bus](keywords/DataBus.md)
 - [Value Type](keywords/ValueType.md)
+    - [Struct](keywords/Struct.md)
 - [Reference Type](keywords/RefType.md)
     - [Boxing](keywords/Boxing.md)
     - [Unboxing](keywords/Unboxing.md)
