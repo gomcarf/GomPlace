@@ -24,6 +24,7 @@
 - [Value Type](keywords/ValueType.md)
     - [Struct](keywords/Struct.md)
 - [Reference Type](keywords/RefType.md)
+    - [Class](keywords/class.md)
     - [Boxing](keywords/Boxing.md)
     - [Unboxing](keywords/Unboxing.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
