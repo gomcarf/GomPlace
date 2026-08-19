@@ -32,6 +32,7 @@
 - [매개변수 한정자 In](keywords/in.md)
 - [Const](keywords/Const.md)
 - [ReadOnly](keywords/ReadOnly.md)
+    - [Const VS Readonly](keywords/ConstVsReadonly.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Thread](keywords/Thread.md)
     - [Thread Control Block](keywords/TCB.md)
