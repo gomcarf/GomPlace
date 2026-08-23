@@ -40,6 +40,7 @@
         - [Public](keywords/Public.md)
         - [Protected](keywords/Protected.md)
         - [Private](keywords/Private.md)
+        - [Internal](keywords/Internal.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Thread](keywords/Thread.md)
     - [Thread Control Block](keywords/TCB.md)

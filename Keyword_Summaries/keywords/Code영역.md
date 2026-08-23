@@ -1,4 +1,4 @@
-# Code 영역
+# [Code 영역](../KeywordsList.md)
 
 - 실행할 프로그램의 기계어 명령(Instruction)이 저장되는 메모리 공간
 - Text 영역이라고도 부름

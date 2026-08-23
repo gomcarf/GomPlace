@@ -1,4 +1,4 @@
-# PCB(Process Control Block)
+# [PCB(Process Control Block)](../KeywordsList.md)
 
 <img src="../Images/image4.png" width =300></img>
 

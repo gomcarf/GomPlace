@@ -1,4 +1,4 @@
-# PCB - Process Status
+# [PCB - Process Status](../KeywordsList.md)
 
 PCB(Process Control Block, 프로세스 제어 블록)에서 프로세스 상태(Process Status / Process State)는 운영체제가 CPU 스케줄러를 통해 프로세스들을 효율적으로 관리하기 위해 기록하는 정보. 프로세스는 생성되어 소멸할 때까지 끊임없이 상태가 변하며, PCB는 이 변화하는 상태를 실시간으로 기록.
 

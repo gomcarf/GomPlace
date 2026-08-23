@@ -1,4 +1,4 @@
-# Data 영역
+# [Data 영역](../KeywordsList.md)
 
 - 프로그램의 전역적인 상태를 관리하는 핵심 공간
 

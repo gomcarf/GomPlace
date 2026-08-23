@@ -1,4 +1,4 @@
-# TCB - Thread Status
+# [TCB - Thread Status](../KeywordsList.md)
 
 - 운영체제(OS)가 멀티스레딩 환경에서 스레드의 효율적인 스케줄링과 자원 관리를 위해 정의한 스레드의 생명주기(Lifecycle) 단계를 의미
 - OS의 스케줄러는 각 스레드의 상태 정보를 담고 있는 TCB(Thread Control Block, 스레드 제어 블록)를 실시간으로 확인하며, 어떤 스레드에 CPU를 할당하고 어떤 스레드를 대기시킬지 결정

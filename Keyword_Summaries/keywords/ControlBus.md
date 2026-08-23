@@ -1,4 +1,4 @@
-# Control Bus
+# {Control Bus](../KeywordsList.md)
 
 <img src="../Images/image24.png" width=600></img>
 

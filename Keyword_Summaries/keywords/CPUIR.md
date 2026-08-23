@@ -1,4 +1,4 @@
-# CPU - IR(Instruction Register)
+# [CPU - IR(Instruction Register)](../KeywordsList.md)
 
 <img src="../Images/image10.png" width=600></img>
 

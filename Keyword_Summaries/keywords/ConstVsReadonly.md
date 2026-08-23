@@ -1,4 +1,4 @@
-# const vs readonly
+# [const vs readonly](../KeywordsList.md)
 
 <img src="../Images/image39.png" width=600></img>
 

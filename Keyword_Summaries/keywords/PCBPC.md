@@ -1,4 +1,4 @@
-# PCB - PC
+# [PCB - PC](../KeywordsList.md)
 
 | **구분** | **PCB 내부의 Program Counter** | **CPU Register의 Program Counter** |
 | --- | --- | --- |

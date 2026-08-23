@@ -1,4 +1,4 @@
-# 연산장치(ALU, Arithmetic Logic Unit)
+# [연산장치(ALU, Arithmetic Logic Unit)](../KeywordsList.md)
 
 <img src="../Images/image18.png" width=600></img>
 

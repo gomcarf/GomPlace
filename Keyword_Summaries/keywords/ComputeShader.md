@@ -1,4 +1,4 @@
-# Compute Shader
+# [Compute Shader](../KeywordsList.md)
 
 - GPU에서 병렬 계산을 수행하는 프로그램
 - 화면에 그림을 그리는 렌더링용 셰이더가 아니라 일반 연산을 빠르게 처리하기 위한 GPGPU 기술

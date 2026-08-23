@@ -1,4 +1,4 @@
-# TGA
+# [TGA](../KeywordsList.md)
 
 ## TGA 파일 포맷의 정의와 개념
 

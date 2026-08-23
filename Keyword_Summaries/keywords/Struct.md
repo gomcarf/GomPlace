@@ -1,4 +1,4 @@
-# Struct
+# [Struct](../KeywordsList.md)
 
 <img src="../Images/image31.png" width=500></img>
 

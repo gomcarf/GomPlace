@@ -1,4 +1,4 @@
-# AC(Accumulator, 누산기)
+# [AC(Accumulator, 누산기)](../KeywordsList.md)
 
 <img src="../Images/image14.png" width=600></img>
 

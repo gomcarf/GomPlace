@@ -1,4 +1,4 @@
-# RAM vs VRAM
+# [RAM vs VRAM](../KeywordsList.md)
 
 RAM과 VRAM은 둘 다 **임시로 데이터를 저장하는 메모리**지만, 쓰임새가 다릅니다. RAM은 컴퓨터 전체의 작업 공간이고, VRAM은 그래픽 처리 전용 작업 공간입니다. 
 

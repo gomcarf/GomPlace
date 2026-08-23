@@ -1,4 +1,4 @@
-# 시스템 버스
+# [시스템 버스](../KeywordsList.md)
 
 <img src="../Images/image23.png" width=500></img>
 

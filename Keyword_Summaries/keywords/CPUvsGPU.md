@@ -1,4 +1,4 @@
-# CPU VS GPU
+# [CPU VS GPU](../KeywordsList.md)
 
 ## CPU(Central Processing Unit)
 

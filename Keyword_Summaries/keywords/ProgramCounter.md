@@ -1,4 +1,4 @@
-# CPU Register - PC(Program Counter)
+# [CPU Register - PC(Program Counter)](../KeywordsList.md)
 
 <img src="../Images/image8.png" width=500></img>
 

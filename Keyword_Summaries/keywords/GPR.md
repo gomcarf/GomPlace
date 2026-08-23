@@ -1,4 +1,4 @@
-# GPR(General Purpose Register)
+# [GPR(General Purpose Register)](../KeywordsList.md)
 
 <img src="../Images/image13.png" width=600></img>
 
