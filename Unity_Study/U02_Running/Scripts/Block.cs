@@ -15,6 +15,6 @@ public class Block : MonoBehaviour
         if (game.GameStart == false)
             return;
 
-        transform.Translate(-5.0f * Time.deltaTime, 0.0f, 0.0f);
+        transform.Translate(-game.BlockSpeed * Time.deltaTime, 0.0f, 0.0f);
     }
 }
