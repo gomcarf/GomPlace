@@ -30,6 +30,7 @@
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
+        - [Abstract](keywords/Abstract.md)
     - 매개변수 한정자(Parameter Modifiers)
         - [Ref](keywords/ref.md) 
         - [Out](keywords/out.md)
