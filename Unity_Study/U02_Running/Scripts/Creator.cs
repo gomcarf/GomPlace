@@ -12,20 +12,23 @@ public class Creator : MonoBehaviour
     [SerializeField]
     private Vector2 size = new Vector2(10, 16);
 
-    private GameObject blocks;
+    [SerializeField]
+    private Vector2 height = new Vector2(1, 5);
 
+    private GameObject blocks;
     private int blockCount = 0;
 
     private void Awake()
     {
         blocks = GameObject.Find("Blocks");
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //print($"Trigger Enter : {collision.gameObject.name}");
 
-        GameObject obj = Instantiate<GameObject>(blockPrefab, blocks.transform);
+        GameObject obj = Instantiate<GameObject>(blockPrefab, blocks.transform);//원본을 복사해서 obj에 줌
         obj.name = $"Block_{++blockCount}"; //childCount : blocks의 자식의 개수 근데 이렇게 하면 나중에 똑같은 이름으로 된 애들이 계속 나옴
 
         float x = transform.position.x; //transform 컴포넌트만 미리 선언을 안해도 내부적으로 getComponent된 변수가 있음 //creator 위치 //9.1
@@ -38,15 +41,31 @@ public class Creator : MonoBehaviour
         x += scaleX * 0.5f;
 
         if(collision.gameObject.name != "Block_Start")//최초 블록이 아니라면
-            x += collision.transform.localScale.x; //이전에 충돌한 블록의 크기만큼 x 크기에 더함
+        {
+            //x += collision.transform.localScale.x; //이전에 충돌한 블록의 크기만큼 x 크기에 더함
+
+            x += collision.GetComponent<SpriteRenderer>().size.x;
+
+        }
+
         //최초블록은 너무 커서 반만큼 더해주면 엄청 멀리서 나타남
 
         Vector2 position = obj.transform.localPosition;//0
         position.x = x;//14.1
         obj.transform.localPosition = position;
 
-        Vector2 scale = Vector2.one;//(1,1)
-        scale.x = scaleX;
-        obj.transform.localScale = scale;
+        //Vector2 scale = Vector2.one;//(1,1) 이제 이 스케일은 안씀. 스프라이트 렌더러랑 박스콜라이더 사이즈를 바꿔줄거임>이미지 늘어난거 없어지게 하려고
+        //scale.x = scaleX;
+        //obj.transform.localScale = scale;
+
+        //int scaleY = 3;
+        int scaleY = Random.Range((int)height.x, (int)height.y+1);//int형으로 바꾸는 경우 1~~4까지로 됨. 최대값을 5로 하고 싶으면 +1을 해줘야함.
+
+        SpriteRenderer spriteRenderer = obj.GetComponent<SpriteRenderer>();//복제한 블록의 스프라이트 렌더러를 가져옴
+        spriteRenderer.size = new Vector2(scaleX, scaleY);
+
+        BoxCollider2D boxCollider2D = obj.GetComponent<BoxCollider2D>();
+        boxCollider2D.size = new Vector2(scaleX, scaleY);
+        boxCollider2D.offset = new Vector2(0.0f, scaleY * 0.5f);
     }
 }
