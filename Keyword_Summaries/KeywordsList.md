@@ -31,6 +31,7 @@
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
         - [Abstract](keywords/Abstract.md)
+        - [Abstract2](keywords/Abstract2.md)
         - [New](keywords/New.md)
         - [Static](keywords/Static.md)
             - [Static Class](keywords/StaticClass.md)
