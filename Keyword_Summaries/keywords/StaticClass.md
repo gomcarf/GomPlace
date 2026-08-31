@@ -1,4 +1,4 @@
-# Static Class
+# [Static Class](../KeywordsList.md)
 
 <img src="../Images/image48.png" width=600></img>
 
