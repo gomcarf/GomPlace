@@ -86,5 +86,6 @@
 - [Callback Function](keywords/CallbackFunction.md)
     - [Delegate](keywords/Delegate.md)
         - [Action](keywords/Action.md)
+        - [Func](keywords/Func.md)
     - [Event](keywords/Event.md)
     - [Delegate Vs Event](keywords/DelegateVsEvent.md)
