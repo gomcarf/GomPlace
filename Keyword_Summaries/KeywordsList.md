@@ -87,5 +87,6 @@
     - [Delegate](keywords/Delegate.md)
         - [Action](keywords/Action.md)
         - [Func](keywords/Func.md)
+        - [Predicate](keywords/predicate.md)
     - [Event](keywords/Event.md)
     - [Delegate Vs Event](keywords/DelegateVsEvent.md)
