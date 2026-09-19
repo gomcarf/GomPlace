@@ -24,3 +24,8 @@
 - [C27_This2](C27_This2/C27_This2.md)
 - [C28_Inheritance](C28_Inheritance/C28_Inheritance.md)
 - [C29_Casting](C29_Casting/C29_Casting.md)
+- [C30_Overloading](C30_Overloading/C30_Overloading.md)
+- [C31_Overriding](C31_Overriding/C31_Overriding.md)
+- [C32_Virtual](C32_Virtual/C32_Virtual.md)
+- [C33_Battle](C33_Battle/C33_Battle.md)
+- [C34_Abstract](C34_Abstract/C34_Abstract.md)
