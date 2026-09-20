@@ -1,4 +1,4 @@
-# C32_Virtual
+# [C32_Virtual](../CsharpStudy_List.md)
 
 ```csharp
 /*Character Class*/

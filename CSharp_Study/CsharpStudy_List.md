@@ -29,3 +29,6 @@
 - [C32_Virtual](C32_Virtual/C32_Virtual.md)
 - [C33_Battle](C33_Battle/C33_Battle.md)
 - [C34_Abstract](C34_Abstract/C34_Abstract.md)
+- [C35_TextFile](C35_TextFile/C35_TextFile.md)
+- [C36_BinaryFile](C36_BinaryFile/C36_BinaryFile.md)
+- [C37_Static](C37_Static/C37_Static.md)

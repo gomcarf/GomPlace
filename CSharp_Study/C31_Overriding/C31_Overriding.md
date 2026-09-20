@@ -1,4 +1,4 @@
-# C31_Overriding
+# [C31_Overriding](../CsharpStudy_List.md)
 
 ## 오버라이딩(Overriding)
 

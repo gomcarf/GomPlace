@@ -1,0 +1,6 @@
+{
+    "Name": "Player",
+    "HP": 100,
+    "Alive": true,
+    "Level": 99
+}

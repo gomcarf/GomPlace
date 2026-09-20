@@ -1,4 +1,4 @@
-# C34_Abstract
+# [C34_Abstract](../CsharpStudy_List.md)
 
 ## 추상화(abstract)
 
