@@ -89,6 +89,8 @@
         - [Func](keywords/Func.md)
         - [Predicate](keywords/predicate.md)
         - [Lambda Expression](keywords/LambdaExpression.md)
+        - [Anonymous Method](keywords/AnonyMethod.md)
+        - [Closure](keywords/Closure.md)
     - [Event](keywords/Event.md)
         - [Publisher-Subscriber Pattern](keywords/PubSub.md)
         - [Observer Pattern](keywords/ObserverPattern.md)
