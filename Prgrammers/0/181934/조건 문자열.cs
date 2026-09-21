@@ -2,33 +2,11 @@ using System;
 
 public class Solution {
     public int solution(string ineq, string eq, int n, int m) {
-        if(ineq == ">"){
-            if(eq == "="){
-                if(n>=m)
-                    return 1;
-                else
-                    return 0;
-            }
-            else{
-                if(n>m)
-                    return 1;
-                else
-                    return 0;
-            }
-        }
-        else{
-            if(eq == "="){
-                if(n<=m)
-                    return 1;
-                else
-                    return 0;
-            }
-            else{
-                if(n<m)
-                    return 1;
-                else
-                    return 0;
-            }
-        }
+        string ie = ineq + eq;
+        if(ie == ">=") return n >= m ? 1 : 0;
+        if(ie == "<=") return n <= m ? 1 : 0;
+        if(ie == ">!") return n > m ? 1 : 0;
+        if(ie == "<!") return n < m ? 1 : 0;
+        return 0;
     }
 }
