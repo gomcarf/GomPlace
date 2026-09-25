@@ -17,3 +17,25 @@ public class Solution {
         return answer;
     }
 }
+
+/* 리스트를 이용한 풀이
+ using System;
+ using System.Collections.Generic;
+
+public class Solution {
+    public int[] solution(int[] num_list) {
+        List<int> answer = new List<int>();
+        answer.AddRange(num_list);
+        
+        int last = num_list[num_list.Length - 1];
+        int prev = num_list[num_list.Length - 2];
+        
+        if(last > prev)
+            answer.Add(last - prev);
+        else
+            answer.Add(last * 2);
+        
+        return answer.ToArray();
+    }
+}
+*/
