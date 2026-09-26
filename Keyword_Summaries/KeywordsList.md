@@ -95,6 +95,7 @@
         - [Property](keywords/Property.md)
             - [Get](keywords/Get.md)
             - [Set](keywords/Set.md)
+            - [Init](keywords/Init.md)
     - [Event](keywords/Event.md)
         - [Publisher-Subscriber Pattern](keywords/PubSub.md)
         - [Observer Pattern](keywords/ObserverPattern.md)
