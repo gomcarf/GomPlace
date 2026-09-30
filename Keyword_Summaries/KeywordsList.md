@@ -29,6 +29,7 @@
     - [Generic을 통한 Boxing/UnBoxing 방지 효과](keywords/GenericEffect.md)
 - [Reference Type](keywords/RefType.md)
     - [Class](keywords/class.md)
+    - [Array](keywords/Array.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
