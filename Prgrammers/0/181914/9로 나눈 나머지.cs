@@ -8,3 +8,15 @@ public class Solution {
         return num % 9;
     }
 }
+
+/* 람다를 사용한 풀이
+using System;
+using System.Linq;
+
+public class Solution {
+    public int solution(string number) {
+        return number.Select(s => s - '0').Sum() % 9;
+    }
+}
+ 
+ */
