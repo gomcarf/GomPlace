@@ -5,10 +5,10 @@ public class Solution {
         char[] answer = my_string.ToCharArray();
         
         for(int i = 0; i < queries.GetLength(0); i++){
-            int prev = queries[i,0];
-            int last = queries[i,1];
+            int s = queries[i,0];
+            int e = queries[i,1];
             
-            Array.Reverse(answer, prev, last - prev + 1);
+            Array.Reverse(answer, s, e - s + 1);
         }
         return new string(answer);
     }
