@@ -30,6 +30,7 @@
 - [Reference Type](keywords/RefType.md)
     - [Class](keywords/class.md)
     - [Array](keywords/Array.md)
+    - [List](keywords/List.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
