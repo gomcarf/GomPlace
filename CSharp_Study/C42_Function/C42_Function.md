@@ -1,4 +1,4 @@
-# C42_Function
+# [C42_Function](../CsharpStudy_List.md)
 
 - 여러 개의 최소값 검사 조건을 한 번에 넘겨서, 조건에 걸리는 첫 번째 메세지를 출력하는 검증 구조를 만든 예제.
 

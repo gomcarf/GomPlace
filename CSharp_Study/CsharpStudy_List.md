@@ -32,3 +32,8 @@
 - [C35_TextFile](C35_TextFile/C35_TextFile.md)
 - [C36_BinaryFile](C36_BinaryFile/C36_BinaryFile.md)
 - [C37_Static](C37_Static/C37_Static.md)
+- [C38_Generic](C38_Generic/C38_Generic.md)
+- [C39_Nullable](C39_Nullable/C39_Nullable.md)
+- [C40_Delegate](C40_Delegate/C40_Delegate.md)
+- [C41_Lambda](C41_Lambda/C41_Lambda.md)
+- [C42_Function](C42_Function/C42_Function.md)

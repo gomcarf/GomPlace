@@ -1,4 +1,4 @@
-# C38_Generic
+# [C38_Generic](../CsharpStudy_List.md)
 
 ## Stack.cs
 

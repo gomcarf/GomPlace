@@ -1,4 +1,4 @@
-# C41_Lambda
+# [C41_Lambda](../CsharpStudy_List.md)
 
 ## Lambda 클래스
 

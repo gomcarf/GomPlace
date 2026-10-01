@@ -1,4 +1,4 @@
-# C39_Nullable
+# [C39_Nullable](../CsharpStudy_List.md)
 
 - Nullable 타입(`int?`, `string?`), 널 병합 연산자(`??`), `is` 연산자와 상속 관계, null 비교 규칙을 보여주는 예제
 

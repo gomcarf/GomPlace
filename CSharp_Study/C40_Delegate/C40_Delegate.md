@@ -1,4 +1,4 @@
-# C40_Delegate
+# [C40_Delegate](../CsharpStudy_List.md)
 
 ## Player 클래스
 
