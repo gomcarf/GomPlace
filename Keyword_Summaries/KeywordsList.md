@@ -31,6 +31,8 @@
     - [Class](keywords/class.md)
     - [Array](keywords/Array.md)
     - [List](keywords/List.md)
+    - [Array vs List](keywords/ArrayvsList.md)
+    - [KeyValuePair<TKey, TValue>](keywords/KeyValuePair.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
