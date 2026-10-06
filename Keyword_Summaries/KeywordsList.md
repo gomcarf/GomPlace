@@ -35,6 +35,7 @@
     - [KeyValuePair<TKey, TValue>](keywords/KeyValuePair.md)
     - [Dictionary<TKey, TValue>](keywords/Dictionary.md)
     - [Queue](keywords/Queue.md)
+    - [Stack](keywords/Stack.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
