@@ -37,6 +37,7 @@
     - [Queue](keywords/Queue.md)
     - [Stack](keywords/Stack.md)
     - [Stack vs Queue](keywords/StackvsQueue.md)
+    - [HashSet\<T>](keywords/HashSet.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
