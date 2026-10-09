@@ -38,6 +38,7 @@
     - [Stack](keywords/Stack.md)
     - [Stack vs Queue](keywords/StackvsQueue.md)
     - [HashSet\<T>](keywords/HashSet.md)
+- [Garbage Collector](keywords/GarbageCollector.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
