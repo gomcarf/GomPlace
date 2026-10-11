@@ -39,7 +39,8 @@
     - [Stack vs Queue](keywords/StackvsQueue.md)
     - [HashSet\<T>](keywords/HashSet.md)
 - [Garbage Collector](keywords/GarbageCollector.md)
-- [Object Pooling](keywords/ObjectPooling.md)
+    - [Object Pooling](keywords/ObjectPooling.md)
+    - [IDisposable](keywords/IDisposable.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
