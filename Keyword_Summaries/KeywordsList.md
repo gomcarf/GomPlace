@@ -42,6 +42,7 @@
     - [Object Pooling](keywords/ObjectPooling.md)
     - [IDisposable](keywords/IDisposable.md)
 - [Using과 Dispose](keywords/UsingDispose.md)
+- [Memory Leak](keywords/MemoryLeak.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
