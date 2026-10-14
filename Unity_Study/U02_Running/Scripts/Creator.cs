@@ -2,18 +2,17 @@ using UnityEngine;
 
 public class Creator : MonoBehaviour
 {
-    [SerializeField]//private 변수를 에디터에 노출 시켜줌
-    private GameObject blockPrefab;//파일에서 불러온 원본 프리팹
+    [SerializeField]
+    private GameObject blockPrefab;
 
     [SerializeField]
-    private Vector2 distance = new Vector2(4, 8);//x, y좌표를 가진 자료형인데 최소, 최대값으로도 많이 씀
-    //3~8사이에 랜덤한 값으로 간격을 줄거임
+    private Vector2 distance = new Vector2(4, 8);
 
     [SerializeField]
     private Vector2 size = new Vector2(10, 16);
 
     [SerializeField]
-    private Vector2 height = new Vector2(1, 5);
+    private Vector2 height = new Vector2(1, 3);
 
     private GameObject blocks;
     private int blockCount = 0;
@@ -21,47 +20,60 @@ public class Creator : MonoBehaviour
     private void Awake()
     {
         blocks = GameObject.Find("Blocks");
-        
     }
+
+#if UNITY_EDITOR
+    private void Reset() //리셋할때 불려오는 함수. 리소스 등 초기값을 설정할 수 없는 값들을 리셋할때 불러놓으라는 식으로 처리 가능
+    {
+        //print("Reset");
+
+        blockPrefab = Resources.Load<GameObject>("Prefabs/Block");
+    }
+#endif
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //print($"Trigger Enter : {collision.gameObject.name}");
 
-        GameObject obj = Instantiate<GameObject>(blockPrefab, blocks.transform);//원본을 복사해서 obj에 줌
-        obj.name = $"Block_{++blockCount}"; //childCount : blocks의 자식의 개수 근데 이렇게 하면 나중에 똑같은 이름으로 된 애들이 계속 나옴
+        if (collision.gameObject.name.Contains("Block") == false)
+            return;
 
-        float x = transform.position.x; //transform 컴포넌트만 미리 선언을 안해도 내부적으로 getComponent된 변수가 있음 //creator 위치 //9.1
-        
-        //x += 5.0f;
-        x += Random.Range(distance.x, distance.y);//블록 간 간격(c#에선느 랜덤 객체를 생성해서 난수를 발생했지만 유니티는 스태틱 함수로 부여 가능)//3~8
 
-        //x += 6.0f(블록크기) * 0.5f;//블록 x 크기의 반만큼 위치를 조정 (블록의 간격을 보장하기 위함)
+        GameObject obj = Instantiate<GameObject>(blockPrefab, blocks.transform);
+        obj.name = $"Block_{++blockCount}";
+
+        float x = transform.position.x; //Creator의 x좌표 //9.1
+
+        //x += 5.0f;//블록간 x간격 
+        x += Random.Range(distance.x, distance.y); 
+
+        //x += 6.0f * 0.5f; //블록의 x크기
         float scaleX = Random.Range(size.x, size.y);
         x += scaleX * 0.5f;
 
-        if(collision.gameObject.name != "Block_Start")//최초 블록이 아니라면
+
+        if (collision.gameObject.name != "Block_Start")
         {
-            //x += collision.transform.localScale.x; //이전에 충돌한 블록의 크기만큼 x 크기에 더함
-
+            //x += collision.transform.localScale.x; //이전에 충돌한 블록의 x크기
             x += collision.GetComponent<SpriteRenderer>().size.x;
-
         }
+            
 
-        //최초블록은 너무 커서 반만큼 더해주면 엄청 멀리서 나타남
-
-        Vector2 position = obj.transform.localPosition;//0
-        position.x = x;//14.1
+        Vector2 position = obj.transform.localPosition; //0
+        position.x = x; //14.1
         obj.transform.localPosition = position;
 
-        //Vector2 scale = Vector2.one;//(1,1) 이제 이 스케일은 안씀. 스프라이트 렌더러랑 박스콜라이더 사이즈를 바꿔줄거임>이미지 늘어난거 없어지게 하려고
+        //Vector2 scale = Vector2.one; //(1, 1)
+        ////scale.x = 6.0f;
         //scale.x = scaleX;
         //obj.transform.localScale = scale;
 
-        //int scaleY = 3;
-        int scaleY = Random.Range((int)height.x, (int)height.y+1);//int형으로 바꾸는 경우 1~~4까지로 됨. 최대값을 5로 하고 싶으면 +1을 해줘야함.
 
-        SpriteRenderer spriteRenderer = obj.GetComponent<SpriteRenderer>();//복제한 블록의 스프라이트 렌더러를 가져옴
+        //int scaleY = 3;
+        int scaleY = Random.Range((int)height.x, (int)height.y + 1);
+
+        SpriteRenderer spriteRenderer = obj.GetComponent<SpriteRenderer>();
         spriteRenderer.size = new Vector2(scaleX, scaleY);
 
         BoxCollider2D boxCollider2D = obj.GetComponent<BoxCollider2D>();
