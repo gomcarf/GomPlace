@@ -48,6 +48,7 @@
   - [yield return](keywords/yieldreturn.md)
   - [IEnumerable](keywords/IEnumerable.md)
   - [IEnumerator vs IEnumerable](keywords/IEvsIE.md)
+  - [foreach](keywords/foreach.md)
 - Casting
     - [Upcasting](keywords/Upcasting.md)
     - [Downcasting](keywords/Downcasting.md)
