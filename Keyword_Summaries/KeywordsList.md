@@ -80,6 +80,7 @@
         - [Internal](keywords/Internal.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Thread](keywords/Thread.md)
+- [Thread](keywords/Thread2.md)
     - [Thread Control Block](keywords/TCB.md)
     - [Thread ID](keywords/TID.md)
     - [Thread Status](keywords/ThreadStatus.md)
@@ -123,3 +124,4 @@
     - [Delegate Vs Event](keywords/DelegateVsEvent.md)
 - [Reflection](keywords/Reflection.md)
 - [Reflection 추가](keywords/ReflectionAdd.md)
+- [bit & byte](keywords/bitbyte.md)
