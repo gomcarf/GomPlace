@@ -85,6 +85,7 @@
     - [Thread ID](keywords/TID.md)
     - [Thread Status](keywords/ThreadStatus.md)
     - [Prgram Counter](keywords/TCBPC.md)
+- [Thread & Task](keywords/ThreadTask.md)
 - [Process](keywords/Process.md)
     - [Process](keywords/Process2.md)
     - [Process Control Block](keywords/PCB(ProcessControlBlock).md)
@@ -124,4 +125,6 @@
     - [Delegate Vs Event](keywords/DelegateVsEvent.md)
 - [Reflection](keywords/Reflection.md)
 - [Reflection 추가](keywords/ReflectionAdd.md)
-- [bit & byte](keywords/bitbyte.md)
+- 자료형
+    - [bit & byte](keywords/bitbyte.md)
+    - [Integer](keywords/integer.md)
