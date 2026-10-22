@@ -86,6 +86,7 @@
     - [Thread Status](keywords/ThreadStatus.md)
     - [Prgram Counter](keywords/TCBPC.md)
 - [Thread & Task](keywords/ThreadTask.md)
+- [OS Thread vs Thread Pool](keywords/OSTvsThreadPool.md)
 - [Process](keywords/Process.md)
     - [Process](keywords/Process2.md)
     - [Process Control Block](keywords/PCB(ProcessControlBlock).md)
@@ -128,3 +129,4 @@
 - 자료형
     - [bit & byte](keywords/bitbyte.md)
     - [Integer](keywords/integer.md)
+    - [Unsigned Integer](keywords/unsignedInteger.md)
