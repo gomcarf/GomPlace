@@ -54,6 +54,7 @@
     - [Downcasting](keywords/Downcasting.md)
     - [As](keywords/As.md)
     - [Is](keywords/Is.md)
+- [변수 vs 상수](keywords/VariablevsConst.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
@@ -130,3 +131,4 @@
     - [bit & byte](keywords/bitbyte.md)
     - [Integer](keywords/integer.md)
     - [Unsigned Integer](keywords/unsignedInteger.md)
+- [동기 vs 비동기](keywords/SyncvsAsync.md)
