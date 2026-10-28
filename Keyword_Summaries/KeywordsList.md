@@ -56,6 +56,7 @@
     - [As](keywords/As.md)
     - [Is](keywords/Is.md)
 - [변수 vs 상수](keywords/VariablevsConst.md)
+    - [지역 변수(스택)](keywords/LocalVariable.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
@@ -136,3 +137,4 @@
     - [async](keywords/async.md)
 - [Switch When](keywords/switch_when.md)
 - [SOLID 원칙](keywords/SOLID.md)
+    - [단일 책임 원칙(SRP)](keywords/SRP.md)
