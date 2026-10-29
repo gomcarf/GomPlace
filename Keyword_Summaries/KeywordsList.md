@@ -57,6 +57,7 @@
     - [Is](keywords/Is.md)
 - [변수 vs 상수](keywords/VariablevsConst.md)
     - [지역 변수(스택)](keywords/LocalVariable.md)
+    - [동적 할당(힙)](keywords/DAandHeap.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
@@ -138,3 +139,4 @@
 - [Switch When](keywords/switch_when.md)
 - [SOLID 원칙](keywords/SOLID.md)
     - [단일 책임 원칙(SRP)](keywords/SRP.md)
+    - [개방 폐쇄 원칙(OCP)](keywords/OCP.md)
