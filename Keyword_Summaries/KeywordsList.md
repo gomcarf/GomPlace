@@ -59,6 +59,7 @@
     - [지역 변수(스택)](keywords/LocalVariable.md)
     - [동적 할당(힙)](keywords/DAandHeap.md)
 - [함수](keywords/Function.md)
+- [파라미터와 리턴](keywords/ParameterReturn.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
@@ -142,3 +143,4 @@
     - [단일 책임 원칙(SRP)](keywords/SRP.md)
     - [개방 폐쇄 원칙(OCP)](keywords/OCP.md)
     - [리스코프 치환원칙(LSP)](keywords/LSP.md)
+    - [인터페이스 분리(ISP)](keywords/ISP.md)
