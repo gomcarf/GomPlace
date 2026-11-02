@@ -60,6 +60,7 @@
     - [동적 할당(힙)](keywords/DAandHeap.md)
 - [함수](keywords/Function.md)
 - [파라미터와 리턴](keywords/ParameterReturn.md)
+- [디폴트 파라미터](keywords/DefaultParameter.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
@@ -144,3 +145,4 @@
     - [개방 폐쇄 원칙(OCP)](keywords/OCP.md)
     - [리스코프 치환원칙(LSP)](keywords/LSP.md)
     - [인터페이스 분리(ISP)](keywords/ISP.md)
+    - [의존성 역전 원칙(DIP)](keywords/DIP.md)
