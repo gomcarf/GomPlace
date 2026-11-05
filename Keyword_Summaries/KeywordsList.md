@@ -30,6 +30,7 @@
 - [Reference Type](keywords/RefType.md)
     - [Class](keywords/class.md)
     - [Array](keywords/Array.md)
+    - [Array](keywords/Array1.md)
     - [Array2D의 2가지 종류](keywords/array2D.md)
     - [List](keywords/List.md)
     - [Array vs List](keywords/ArrayvsList.md)
@@ -150,3 +151,4 @@
     - [의존성 역전 원칙(DIP)](keywords/DIP.md)
 - [의존성 주입(DI)](keywords/DependencyInjection.md)
 - [싱글톤 패턴(Single Tone Pattern)](keywords/singleTone.md)
+- [싱글톤 패턴의 문제점](keywords/SingletoneProblem.md)
