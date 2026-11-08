@@ -33,6 +33,7 @@
     - [Array](keywords/Array1.md)
     - [Array2D의 2가지 종류](keywords/array2D.md)
     - [2차원 배열](keywords/2DArray.md)
+        - [2차원 가변 배열](keywords/JaggedArray.md)  
     - [List](keywords/List.md)
     - [Array vs List](keywords/ArrayvsList.md)
     - [KeyValuePair<TKey, TValue>](keywords/KeyValuePair.md)
@@ -154,3 +155,4 @@
 - [싱글톤 패턴(Single Tone Pattern)](keywords/singleTone.md)
 - [싱글톤 패턴의 문제점](keywords/SingletoneProblem.md)
 - [컴포넌트 패턴(Component Pattern)](keywords/ComponentPattern.md)
+- [상태 패턴(State Pattern)](keywords/StatePattern.md)
