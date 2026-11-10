@@ -23,6 +23,7 @@
         - [Data Bus](keywords/DataBus.md)
 - [Value Type](keywords/ValueType.md)
     - [Struct](keywords/Struct.md)
+    - [Struct2](keywords/Struct2.md)
     - [Boxing](keywords/Boxing.md)
     - [Unboxing](keywords/Unboxing.md)
 - [Generic](keywords/Generic.md)
@@ -158,3 +159,4 @@
 - [컴포넌트 패턴(Component Pattern)](keywords/ComponentPattern.md)
 - [상태 패턴(State Pattern)](keywords/StatePattern.md)
 - [FSM(Finite State Machine)](keywords/FSM.md)
+- [확장메서드(Extension Method)](keywords/ExtensionMethod.md)
