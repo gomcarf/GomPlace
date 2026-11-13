@@ -46,6 +46,8 @@
     - [Stack vs Queue](keywords/StackvsQueue.md)
     - [HashSet\<T>](keywords/HashSet.md)
     - [Span\<T>](keywords/SpanT.md)
+    - [Memory\<T>](keywords/MemoryT.md)
+- [값 형식 vs 참조 형식](keywords/ValueRefDiff.md)
 - [Garbage Collector](keywords/GarbageCollector.md)
     - [Object Pooling](keywords/ObjectPooling.md)
     - [IDisposable](keywords/IDisposable.md)
