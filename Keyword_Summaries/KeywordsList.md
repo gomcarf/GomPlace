@@ -32,6 +32,7 @@
 - [Reference Type](keywords/RefType.md)
 - [Reference Type2](keywords/RefType2.md)
     - [Class](keywords/class.md)
+    - [Class](keywords/Class2.md)
     - [Array](keywords/Array.md)
     - [Array](keywords/Array1.md)
     - [Array2D의 2가지 종류](keywords/array2D.md)
@@ -70,6 +71,7 @@
 - [함수](keywords/Function.md)
 - [파라미터와 리턴](keywords/ParameterReturn.md)
 - [디폴트 파라미터](keywords/DefaultParameter.md)
+- [속성(Attribute)](keywords/Attribute.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
