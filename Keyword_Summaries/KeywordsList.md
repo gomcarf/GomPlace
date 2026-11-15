@@ -49,6 +49,7 @@
     - [Span\<T>](keywords/SpanT.md)
     - [Memory\<T>](keywords/MemoryT.md)
 - [값 형식 vs 참조 형식](keywords/ValueRefDiff.md)
+    - [Struct vs Class](keywords/StructVsClass.md)
 - [Garbage Collector](keywords/GarbageCollector.md)
     - [Object Pooling](keywords/ObjectPooling.md)
     - [IDisposable](keywords/IDisposable.md)
@@ -72,6 +73,7 @@
 - [파라미터와 리턴](keywords/ParameterReturn.md)
 - [디폴트 파라미터](keywords/DefaultParameter.md)
 - [속성(Attribute)](keywords/Attribute.md)
+    - [Serializable](keywords/Serializable.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
