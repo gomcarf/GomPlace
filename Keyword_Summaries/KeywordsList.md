@@ -74,6 +74,7 @@
 - [디폴트 파라미터](keywords/DefaultParameter.md)
 - [속성(Attribute)](keywords/Attribute.md)
     - [Serializable](keywords/Serializable.md)
+    - [Header](keywords/Header.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
@@ -101,6 +102,7 @@
         - [Protected](keywords/Protected.md)
         - [Private](keywords/Private.md)
         - [Internal](keywords/Internal.md)
+        - [Public & Private](keywords/PrivatePublic.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Thread](keywords/Thread.md)
 - [Thread](keywords/Thread2.md)
