@@ -75,6 +75,7 @@
 - [속성(Attribute)](keywords/Attribute.md)
     - [Serializable](keywords/Serializable.md)
     - [Header](keywords/Header.md)
+    - [Obsolete](keywords/Obsolete.md)
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
@@ -103,6 +104,7 @@
         - [Private](keywords/Private.md)
         - [Internal](keywords/Internal.md)
         - [Public & Private](keywords/PrivatePublic.md)
+- [오버로딩(Overloading)](keywords/Overloading.md)
 - [RAM VS VRAM](keywords/RAMvsVRAM.md)
 - [Thread](keywords/Thread.md)
 - [Thread](keywords/Thread2.md)
