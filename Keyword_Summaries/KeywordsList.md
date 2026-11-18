@@ -79,6 +79,7 @@
 - 한정자
     - 한정자(Modifiers)
         - [Virtual](keywords/Virtual.md)
+        - [Virtual2](keywords/Virtual2.md)
         - [Abstract](keywords/Abstract.md)
         - [Abstract2](keywords/Abstract2.md)
             - [Abstract Class](keywords/AbstractClass.md)
@@ -151,6 +152,7 @@
     - [Event](keywords/Event.md)
         - [Publisher-Subscriber Pattern](keywords/PubSub.md)
         - [Observer Pattern](keywords/ObserverPattern.md)
+        - [Observer Pattern2](keywords/Observer.md)
     - [Delegate Vs Event](keywords/DelegateVsEvent.md)
 - [Reflection](keywords/Reflection.md)
 - [Reflection 추가](keywords/ReflectionAdd.md)
