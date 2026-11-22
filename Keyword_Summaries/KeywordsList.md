@@ -150,6 +150,7 @@
             - [Get](keywords/Get.md)
             - [Get2](keywords/PropertyGet.md)
             - [Set](keywords/Set.md)
+            - [Set2](keywords/PropertySet.md)
             - [Init](keywords/Init.md)
             - [자동 구현 프로퍼티](keywords/AutoImplementedProperties.md)
     - [Event](keywords/Event.md)
@@ -181,6 +182,7 @@
     - [Command Pattern](keywords/Command.md)
         - [Command Pattern 이용한 입력 처리 구현 방법](keywords/CommandInput.md)
     - [Strategy Pattern](keywords/StrategyPattern.md)
+    - [Factory Pattern](keywords/FactoryPattern.md)
 - [FSM(Finite State Machine)](keywords/FSM.md)
 - [확장메서드(Extension Method)](keywords/ExtensionMethod.md)
 
